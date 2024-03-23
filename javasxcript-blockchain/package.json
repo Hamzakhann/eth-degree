@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hex-to-binary": "^1.0.1"
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "hex-to-binary": "^1.0.1",
+    "redis": "^4.6.13",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
