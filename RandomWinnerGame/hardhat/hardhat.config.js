@@ -8,7 +8,7 @@ const POLYGONSCAN_KEY = process.env.POLYGONSCAN_KEY;
 module.exports = {
   solidity: "0.8.20",
   networks: {
-    mumbai: {
+    amoy: {
       url: RPC_URL,
       accounts: [PRIVATE_KEY],
     },
@@ -19,3 +19,6 @@ module.exports = {
     },
   },
 };
+
+// 0xade4C3aDacE00Fe994306e67DcbCE8Dea0ED83c3
+
