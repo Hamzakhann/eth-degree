@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum
     name: RandomWinnerGame
-    network: amoy
+    network: polygon-amoy
     source:
       address: "0xade4C3aDacE00Fe994306e67DcbCE8Dea0ED83c3"
       abi: RandomWinnerGame
